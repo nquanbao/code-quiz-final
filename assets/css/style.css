@@ -1,0 +1,107 @@
+
+.head{
+    width: 100%;
+    height: 30px;
+    display: block;
+    color: red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head h3{
+    display: inline;
+    flex-wrap: flex;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-left: 90%;
+}
+.head a{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.home-section{
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    margin-left: 30%;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.home-section a{
+    background-color:antiquewhite;
+    color: black;
+}
+.home-section div button{
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.home-section button:hover{
+    cursor: pointer;
+}
+.question-section{
+   background-color: aquamarine;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px 5px gray;
+   width: 700px;
+   margin-top: 50px;
+   margin-left: 30%;
+   overflow: hidden;
+}
+.question{
+   padding: 10px;
+}
+.question-section li{
+    font-size: 15px;
+    margin : 2px;
+    text-align: left;
+    padding: 5px;
+}
+.question-section div ul{
+    list-style: none;
+    padding: 0;
+}
+.question-section label{
+    font-size: 18px ;
+    cursor: pointer;
+}
+.question-section button{
+    align-items: center;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 5px;
+    width: 100px;
+    margin-left: 45%;
+    cursor: pointer;
+    align-items: end;
+}
+.final-section{
+    width: 600px;
+    height: 200px;
+    background-color: aquamarine;
+    color: black;
+    margin-left: 30%;
+    margin-top: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.final-section div h2{
+    font-size: 40px;
+}
+.final-section button{
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+.final-section input{
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
